@@ -1,0 +1,47 @@
+# ==============================
+# Environment / secrets
+# ==============================
+.env
+src/.env
+src/.env.backup
+src/.env.production
+
+# ==============================
+# Dependencies (backup rules - src/.gitignore also covers these)
+# ==============================
+src/vendor/
+src/node_modules/
+
+# ==============================
+# Build output
+# ==============================
+src/public/build/
+src/public/hot
+src/public/storage
+
+# ==============================
+# Personal / local files
+# ==============================
+Makefile.local
+docker-compose.override.yml
+
+# ==============================
+# Editors / IDEs
+# ==============================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+*.log
+npm-debug.log*
